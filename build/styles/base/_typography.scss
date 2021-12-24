@@ -1,1 +1,26 @@
 // * TYPOGRAPHYS
+*{
+    font-size: 62.5%;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.header__container{
+    p, span{
+        font-size: 1.4rem;
+    }
+    ul li i {
+        font-size: 1.6rem;
+    }
+}
+
+.navigation__container{
+    #navigation__menu{
+        font-size: 2.6rem;
+    }
+    .container__box__content{
+        font-size: 2.8rem;
+        span:nth-child(2){
+            color:  $cl-0;
+            font-weight: 500;
+        }
+    }
+}

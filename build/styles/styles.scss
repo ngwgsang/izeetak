@@ -8,15 +8,15 @@
 //* Components
 @import './components/button';
 @import './components/header';
+@import './components/navigation';
 @import './components/footer';
 //* Pages
 
 //* Layouts
-
+@import './layout/wrapper';
+@import './layout/flex';
+@import './layout/grid';
 //* Themes
 
 //* Vendors
 
-body{
-    width: 100%;
-}

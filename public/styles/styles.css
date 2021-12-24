@@ -1,2 +1,198 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+input,
+textarea,
+select,
+button {
+  outline: none; }
+
+input {
+  line-height: normal; }
+
+label,
+button {
+  cursor: pointer; }
+
+a {
+  text-decoration: none; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
 body {
-  width: 100%; }
+  background: #ccc; }
+
+* {
+  font-size: 62.5%;
+  font-family: 'Baloo Bhaijaan 2', cursive; }
+
+.header__container p, .header__container span {
+  font-size: 1.4rem; }
+
+.header__container ul li i {
+  font-size: 1.6rem; }
+
+.navigation__container #navigation__menu {
+  font-size: 2.6rem; }
+
+.navigation__container .container__box__content {
+  font-size: 2.8rem; }
+  .navigation__container .container__box__content span:nth-child(2) {
+    color: #1b1825;
+    font-weight: 500; }
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 1920px;
+  padding: 1% 5%;
+  background: #000; }
+  .header__container .container__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1rem; }
+    .header__container .container__box p {
+      color: #ada8ba; }
+      .header__container .container__box p span {
+        color: #42d9be; }
+  .header__container i {
+    color: #fff; }
+  .header__container--left, .header__container--right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1.5rem; }
+  .header__container--right .container__box ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    list-style: none; }
+
+.navigation__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+  height: 10rem;
+  padding: 1rem 4rem; }
+  .navigation__container .container__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1rem; }
+  .navigation__container--left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 10rem; }
+    .navigation__container--left #navigation__menu {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      list-style: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      gap: 8rem;
+      font-weight: 500; }
+      .navigation__container--left #navigation__menu .active {
+        position: relative; }
+        .navigation__container--left #navigation__menu .active::before {
+          content: "";
+          width: 30%;
+          height: 0.2rem;
+          background: #42d9be;
+          position: absolute;
+          top: 50%;
+          left: -2.5rem;
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%); }
+  .navigation__container--right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-right: 2rem; }
+    .navigation__container--right .container__box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      gap: 1.5rem; }
+      .navigation__container--right .container__box__content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 1;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        color: #ada8ba; }
+      .navigation__container--right .container__box:nth-child(1) {
+        padding-right: 3rem;
+        border-right: 0.1rem solid #E2E9EE; }
+      .navigation__container--right .container__box:nth-child(2) {
+        gap: 3rem;
+        padding: 0 3rem; }
+      .navigation__container--right .container__box i {
+        font-size: 2.3rem; }
+
+.wrapper {
+  max-width: 1920px;
+  height: auto;
+  margin: 0 auto; }

@@ -1,1 +1,38 @@
 // * HEADER
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1920px;
+    padding: 1% 5%;
+    background: #000;
+    .container__box{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        p {
+            color: $cl-grey;
+            span{
+                color: $cl-green-blue;
+            }
+        }
+    }
+    i{
+        color: $cl-f;
+    }
+    &--left, &--right{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    &--right{
+        .container__box{
+            ul{
+                display: flex;
+                gap: 2rem;
+                align-items: center;
+                list-style: none;
+            }
+        }
+    }
+}
