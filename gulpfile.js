@@ -186,7 +186,7 @@ function removeEmptyTemplateFile(){
 		'build/styles/themes/empty.txt',
 		'build/styles/vendors/empty.txt',
 		'LICENSE',
-		'README.md'
+		// 'README.md'
 	])
 }
 
