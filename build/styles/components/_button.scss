@@ -1,1 +1,14 @@
 // * BUTTON
+button{
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.btn--discover{
+    background: $cl-blue;
+    color: $cl-f;
+    border-radius: 0.4rem;
+    width: 22rem;
+    height: 6rem;
+}
+

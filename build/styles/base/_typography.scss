@@ -2,7 +2,13 @@
 *{
     font-size: 62.5%;
     font-family: 'Baloo Bhaijaan 2', cursive;
+    line-height: 1;
 }
+
+button{
+    font-size: 2rem;
+}
+
 .header__container{
     p, span{
         font-size: 1.4rem;
@@ -22,5 +28,27 @@
             color:  $cl-0;
             font-weight: 500;
         }
+    }
+}
+
+.hero__container__content{
+    color: $cl-f;
+    width: 60rem;
+    h1{
+        font-weight: 700;
+        font-size: 7.5rem;    
+    }
+    p{
+        font-size: 2rem;
+    }
+}
+
+.card-with-icon{
+    h5{
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1.4rem;
+        color: $cl-grey;
     }
 }

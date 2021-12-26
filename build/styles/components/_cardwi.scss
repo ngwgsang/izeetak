@@ -1,0 +1,25 @@
+.card-with-icon{
+    background: $cl-f;
+    display: flex;
+    gap: 2rem;
+    width: 36rem;
+    height: auto;
+    padding: 2rem;
+    border-radius: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    .icon{
+        width: 8rem;
+        height: 8rem;
+        img{
+            width: 100%;
+        }
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        height: 8rem;
+    }
+}

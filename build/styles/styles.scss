@@ -10,8 +10,9 @@
 @import './components/header';
 @import './components/navigation';
 @import './components/footer';
+@import './components/cardwi';
 //* Pages
-
+@import './pages/home';
 //* Layouts
 @import './layout/wrapper';
 @import './layout/flex';

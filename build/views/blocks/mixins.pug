@@ -1,0 +1,8 @@
+mixin card-with-icon(icon,title, content)
+    div(class!=attributes.class).card-with-icon
+        .icon
+            img(src= icon)
+        .content
+            h5= title 
+            p= content
+
