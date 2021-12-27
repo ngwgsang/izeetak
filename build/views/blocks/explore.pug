@@ -1,0 +1,30 @@
+section.explore__container
+    .explore__container__content
+        .explore__container__content--top 
+            .box
+                h3 
+                    | Share the Joy of Achieving 
+                    | Glorious Moments & Climbing
+                    | Up the Top
+                button.btn--discovermore Discover More
+            img.img--arrow(src= './images/arrow.png')
+            img.img--man(src= './images/man.png')
+            .img--talk
+                img(src= './images/talk.png')
+                img(src= './images/icon-8.png').icon
+                p Trusted by 
+                    span 8800
+        .explore__container__content--bottom
+            .explore__container__content--bottom__heading 
+                p.head Our Case Studies
+                h3 Explore Projects
+            ul.explore__container__content--bottom__slider 
+                +explore-slider-item('./images/pexels-julia-m-cameron-4144179.jpg','Cloud Services','Research & Energy')
+                +explore-slider-item('./images/maxim-hopman-8vn4KvfU640-unsplash.jpg','Cloud Services','Research & Energy')
+                +explore-slider-item('./images/billetto-editorial-3eAByt3-eOw-unsplash.jpg','Cloud Services','Research & Energy')
+                +explore-slider-item('./images/thisisengineering-raeng-ptnM45oZkcw-unsplash.jpg','Cloud Services','Research & Energy')
+                //- +explore-slider-item('./images/maxim-hopman-8vn4KvfU640-unsplash.jpg','Cloud Services','Research & Energy')
+            .explore__container__content--bottom__slidedotbar
+                .slidedot.active
+                .slidedot
+                .slidedot

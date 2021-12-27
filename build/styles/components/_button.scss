@@ -4,7 +4,7 @@ button{
     outline: 0;
     cursor: pointer;
 }
-.btn--discover{
+.btn--discover, .btn--discovermore{
     background: $cl-blue;
     color: $cl-f;
     border-radius: 0.4rem;
@@ -12,3 +12,13 @@ button{
     height: 6rem;
 }
 
+.btn--arrow{
+    color: $cl-f;
+    background: transparent;
+    border-radius: 4rem;
+    border: 0.2rem solid $cl-f;
+    font-size: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

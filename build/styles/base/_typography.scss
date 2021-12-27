@@ -52,3 +52,138 @@ button{
         color: $cl-grey;
     }
 }
+.card-with-icon-2{
+    h5{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1.6rem;
+        color: $cl-grey;
+        line-height: 1.6;
+    }
+}
+.card-with-feedback{
+    *{
+
+        font-size: 1.7rem;
+    }
+    .head__box__1{
+        font-weight: 600;
+    }
+    .head__box__2{
+        font-size: 1.4rem;
+    }
+}
+
+.card-with-content{
+    .top span {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .bottom{
+        h5{
+            font-size: 2.4rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+        &__box{
+            span,i{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+.discover__container__slogan{
+    font-size: 2rem;
+    font-weight: 500;
+    a{
+        font-size: 2rem;
+    }
+}
+.discover__container__content--right{
+    h3{
+        font-size: 4.5rem;
+    }
+    p, ul li{
+        font-size: 1.9rem;
+        line-height: 1.4;
+    }
+    .head{
+        font-size: 1.4rem;
+    }
+}
+
+.head + h3 {
+    font-size: 4.5rem;
+}
+
+.explore__container__content--top {
+    .box h3{
+        font-size: 3.5rem;
+    }
+    .img--talk{
+        p{
+            font-size: 2rem;
+            span{
+                font-size: 2.2rem;
+                font-weight: 700;
+            }
+        }
+    }
+}
+.explore__container__content--bottom{
+    .btn{
+        h5{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+        .fas{
+            font-size: 2rem;
+        }
+    }
+}
+
+.improve__container{
+    .card-with-icon{
+        h5{
+            font-size: 2.2rem;
+        }
+        p{
+            font-weight: 500;
+            font-size: 1.8rem;
+            line-height: 1.4;
+        }
+    }
+}
+
+.news__container__cta{
+    text-align: center;
+    h3{
+        font-size: 4rem;
+        line-height: 1.2;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+}
+
+.footer__container__copyright span{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.footer__container{
+    p, li, span{
+        font-size: 1.6rem;
+        line-height: 1.2;
+    }
+    i{
+        font-size: 1.4rem;
+    }
+    h4{
+        font-size: 2.2rem;
+    }
+}

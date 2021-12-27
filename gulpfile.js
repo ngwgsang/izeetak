@@ -139,13 +139,13 @@ function views() {
 function images() {
 	return gulp
 		.src(options.images.src)
-		.pipe(
-			cache(
-				imagemin({
-					interlaced: true
-				})
-			)
-		)
+		// .pipe(
+		// 	cache(
+		// 		imagemin({
+		// 			interlaced: true
+		// 		})
+		// 	)
+		// )
 		.pipe(gulp.dest(options.images.dest));
 }
 

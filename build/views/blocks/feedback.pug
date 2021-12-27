@@ -1,0 +1,14 @@
+section.feedback__container 
+    .feedback__container__content 
+        .feedback__container__content--left
+            .feedback__container__content--left__heading 
+                p.head Customers Feedbacks
+                h3 What They're Talking About Company
+            .feedback__container__content--left__button 
+                button.feedback__container__content--left__button--prev <i class = "fas fa-arrow-left"></i> 
+                button.feedback__container__content--left__button--next <i class = "fas fa-arrow-right"></i>
+        .feedback__container__content--right
+            ul.feedback__container__content--right__feedbacklist
+                +card-with-feedback('./images/Fotolia_33434621.jpg','Kevin Martin', 'Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore text.')
+                +card-with-feedback('./images/Fotolia_33434621.jpg','Kevin Martin', 'Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore text.')
+                +card-with-feedback('./images/Fotolia_33434621.jpg','Kevin Martin', 'Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore text.')

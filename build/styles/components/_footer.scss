@@ -1,1 +1,107 @@
 // * FOOTER
+
+.footer__container{
+    height: 70rem;
+    background: $cl-0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h4,p, li{color: $cl-f;}
+    &__content{
+        justify-content: center;
+        gap: 8rem;
+        .box{
+            span{color: $cl-text}
+            i{color: $cl-green-blue;}
+            display: flex;
+            gap: 1rem;
+
+        } 
+        &__logo, &__links, &__contact, &__newsletter{
+            width: 30rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        &__logo{
+            img{
+                width: 15rem;
+            }
+        }
+        &__links{
+
+            .row{
+                display: flex;
+                gap: 2rem;
+            }
+            &--left, &--right{
+                width: 50%;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+
+        h4{
+            font-weight: 600;
+        }
+        &__newsletter{
+            .box{
+                height: 5rem;
+                width: 80%;
+                gap: 0;
+                border-radius: 0.6rem;
+                overflow: hidden;
+                display: flex;
+                input{
+                    flex: 3;
+                    background-color: #fff;
+                    color: $cl-text;
+                    padding: 1rem;
+                }
+                button{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: $cl-blue;
+                    color: #fff;
+                    padding: 1rem;
+                    border-radius: 0 0.6rem 0.6rem 0;
+                }
+            }
+        }
+        .socialmedialist{
+            display: flex;
+            gap: 1rem;
+            &__item{
+                width: 4rem;
+                height: 4rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #000;
+                border-radius: 10rem;
+                i{
+                    color: $cl-f;
+                }
+            }
+        }
+    }
+    &__copyright{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 6rem;
+        width: 60%;
+        background: #000;
+        span{ color: $cl-text;}
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 6rem;
+        border-radius:  0.6rem 0.6rem 0 0;
+    }
+}

@@ -3,6 +3,47 @@ mixin card-with-icon(icon,title, content)
         .icon
             img(src= icon)
         .content
+            if title != '' 
+                h5= title 
+            if content != '' 
+                p= content
+mixin card-with-icon-2(icon,title, content)
+    div(class!=attributes.class).card-with-icon-2
+        .icon
+            img(src= icon)
+        .content
             h5= title 
             p= content
+        .btn--arrow  <i class="fas fa-arrow-right"></i>
 
+mixin explore-slider-item(src, head, title)
+    li.explore-slider-item 
+        img(src= src)
+        .btn
+            p= head
+            h5= title 
+            i.fas.fa-arrow-right
+
+mixin card-with-feedback(src, name, content)
+    li.card-with-feedback
+        .head 
+            img.avt(src = src )
+            .head__box
+                p.head__box__1= name 
+                p.head__box__2 Cusomer
+        p.content= content
+        img(src="./images/deco-2.png").deco
+
+mixin card-with-content(src, time , author, title, content)
+    li.card-with-content
+        .top 
+            img(src= src) 
+            span=time
+        .bottom 
+            .bottom__box 
+                i.fas.fa-user
+                span= author
+                i.fas.fa-comments
+                span 2 Comments
+            h5= title 
+            p= content

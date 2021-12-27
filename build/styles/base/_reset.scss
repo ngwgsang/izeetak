@@ -36,3 +36,13 @@ html {
     background: #ccc;
     overflow-x: hidden;
   }
+  hr{
+    height: 0.18rem;
+    background: $cl-light-grey;
+    outline: 0;
+    border: 0;
+  }
+  input{
+    outline: 0;
+    border: 0;
+  }
