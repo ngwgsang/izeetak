@@ -1,0 +1,112 @@
+.about-blog__container{
+    height: 100rem;
+    background: $cl-f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+    align-items: center;
+    &__content{
+        display: flex;
+        gap: 4rem;
+        padding-bottom: 8rem;
+        &--left{
+            width: 40rem;
+            img{
+                width: 100%;
+            }
+        }
+        &--right{
+            width: 50rem;
+            display: flex;
+            gap: 2rem;
+            flex-direction: column;
+            
+            .highlight{
+                color: $cl-blue;
+                font-weight: 600;
+            }
+            &__circlebox{
+                display: flex;
+                gap: 2rem;
+            }
+        }
+    }
+    &__brand{
+        border-top: 0.1rem solid rgba(204, 204, 204, 0.3);
+        padding-top: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8rem;
+        opacity: 1;
+        z-index: 20;
+    }
+}
+
+.about-video__container{
+    height: 50rem;
+    background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) ,url('../images/pexels-julia-m-cameron-4144179.jpg') center 20%;
+    background-size: cover;
+    position: relative;
+
+    &__box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 40rem;
+        gap: 2rem;
+        button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: $cl-green-blue;
+            width: 6rem;
+            height: 6rem;
+            border-radius: 0.6rem;
+            i{
+                color: $cl-f;
+            }
+        }
+        h5{
+            color: $cl-f;
+            text-align: center;
+        }
+    }
+}
+
+.about-meet__container{
+    height: 100rem;
+    position: relative;
+    background: $cl-f;
+    &__heading{
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    &__listcard{
+        display: flex;
+        gap: 2rem;
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        transform: translateX(-50%);
+        :last-child{
+            img{
+                object-position: top 20% left 0%;
+            }
+        }
+    }
+}

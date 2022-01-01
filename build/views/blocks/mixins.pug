@@ -1,3 +1,4 @@
+
 mixin card-with-icon(icon,title, content)
     div(class!=attributes.class).card-with-icon
         .icon
@@ -46,4 +47,28 @@ mixin card-with-content(src, time , author, title, content)
                 i.fas.fa-comments
                 span 2 Comments
             h5= title 
-            p= content
+            p= content 
+
+mixin card-with-circle(title, percent)
+    .card-with-circle 
+        span.percent= percent 
+        p.title= title 
+
+mixin page-head(root, title)
+    .page-head
+        .page-head__box
+            p= root 
+            h3= title 
+        img.page-head__img(src ="./images/deco.png")
+
+mixin card-with-contact(src, name, job)
+    .card-with-contact 
+        .card-with-contact--top 
+            img(src = src) 
+            .box 
+                span <i class="fab fa-twitter"></i>
+                span <i class="fab fa-facebook"></i>
+                span <i class="fab fa-instagram"></i>
+        .card-with-contact--bottom 
+            p= name 
+            p= job 

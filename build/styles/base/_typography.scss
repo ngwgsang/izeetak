@@ -21,6 +21,9 @@ button{
 .navigation__container{
     #navigation__menu{
         font-size: 2.6rem;
+        li a{
+            font-size: 1.6rem;
+        }
     }
     .container__box__content{
         font-size: 2.8rem;
@@ -185,5 +188,38 @@ button{
     }
     h4{
         font-size: 2.2rem;
+    }
+}
+
+.page-head{
+    p{
+        font-size: 1.6rem;
+    }
+    h3{
+        font-size: 4.4rem;
+    }
+}
+
+.about-video__container{
+    h5{
+        font-size: 3.6rem;
+    }
+}
+
+.about-blog__container__content--right{
+    p{
+        font-size: 2.2rem;
+        line-height: 1.2;
+        color: $cl-text;
+    }
+}
+
+.card-with-circle{
+    span{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 2rem;
+        font-weight: 600;
     }
 }
