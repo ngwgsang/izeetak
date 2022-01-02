@@ -1,0 +1,123 @@
+.services-list__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    height: 100rem;
+    background: $cl-f;
+    position: relative;
+    z-index: 0;
+    &::before{
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "";
+        width: 100%;
+        height: 35rem;
+        background: $cl-light-grey;
+    }
+    &__listcard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        z-index: 20;
+        .card-with-icon-2{
+            width: 34rem;
+            height: 44rem;
+            padding: 4rem;
+        }
+    }
+}
+
+.services-blog__container{
+    background: $cl-f;
+    height: 140rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    &--top{
+        display: flex;
+        justify-content: center;
+        transform: translateY(-25%);
+        .box{
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 10px 60px rgba(0, 0, 0, 0.05);
+            .card-with-icon-3{
+                border-right: 0.2rem solid $cl-light-grey;
+                &:nth-child(4){
+                border: none;
+                }
+            }
+        }
+        &__primarycard{
+            height: 40rem;
+            width: 30rem;
+            display: flex;
+            flex-direction: column;
+            &--top{
+                height: 25rem;
+                background: $cl-blue;
+                padding: 3rem;
+                color: $cl-f;
+            }
+            &--bottom{
+                height: 15rem;
+                width: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+        }
+
+    }
+    &--bottom{
+        
+        width: 66%;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, 0%);
+        border-bottom: 0.1rem solid rgba(204, 204, 204, 0.3);
+        padding-bottom: 10rem;
+        &__heading{
+            width: 100%;
+            display: flex;
+            gap: 2rem;
+            justify-content: space-between;
+            &--left{
+                flex: 3;
+            }
+            &--right{
+                flex: 2;
+                color: $cl-text;
+            }
+        }
+        &__listcard{
+            display: flex;
+            gap: 2rem;
+            justify-content: space-between;
+        }
+        &__noti{
+            margin-top: 5rem;
+            text-align: center;
+            color: $cl-text;
+            span{
+                color: $cl-blue;
+                border-bottom: 0.2rem solid $cl-blue;
+            }
+        }
+
+    }
+}

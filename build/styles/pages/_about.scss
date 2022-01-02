@@ -1,5 +1,5 @@
 .about-blog__container{
-    height: 100rem;
+    height: 120rem;
     background: $cl-f;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@
 }
 
 .about-video__container{
-    height: 50rem;
+    height: 60rem;
     background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) ,url('../images/pexels-julia-m-cameron-4144179.jpg') center 20%;
     background-size: cover;
     position: relative;
@@ -98,7 +98,7 @@
     }
     &__listcard{
         display: flex;
-        gap: 2rem;
+        gap: 3rem;
         position: absolute;
         top: 28%;
         left: 50%;

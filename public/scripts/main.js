@@ -1,1 +1,5 @@
-"use strict";document.querySelectorAll(".card-with-contact").forEach(function(e){e.addEventListener("mouseover",function(e){e.querySelector(".box").style.display="flex"})});
+document.querySelectorAll('.card-with-contact').forEach((e) =>{
+    e.addEventListener('mouseover', (child)=>{
+        child.querySelector('.box').style.display = "flex"
+    })
+})

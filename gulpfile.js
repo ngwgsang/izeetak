@@ -94,15 +94,15 @@ function styles() {
 function scripts() {
 	return gulp
 		.src(options.scripts.src)
-		.pipe(
-			plumber(function(err) {
-				console.log("Scripts Task Error");
-				console.log(err);
-				this.emit("end");
-			})
-		)
-		.pipe(babel())
-		.pipe(uglify())
+		// .pipe(
+		// 	plumber(function(err) {
+		// 		console.log("Scripts Task Error");
+		// 		console.log(err);
+		// 		this.emit("end");
+		// 	})
+		// )
+		// .pipe(babel())
+		// .pipe(uglify())
 		.pipe(gulp.dest(options.scripts.dest))
 		.pipe(
 			browsersync.reload({

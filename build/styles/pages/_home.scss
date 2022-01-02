@@ -199,21 +199,11 @@
     }
     &__listcard{
         display: flex;
-        gap: 2rem;
+        gap: 3rem;
         position: absolute;
         top: 28%;
         left: 50%;
         transform: translateX(-50%);
-        .card-with-icon-2:nth-child(2){
-            .btn--arrow{
-                background: $cl-green-blue;
-                color: $cl-f;
-            }
-            .icon{
-                background: $cl-blue;
-            }
-            
-        }
     }
 }
 

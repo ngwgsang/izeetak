@@ -1,1 +1,10 @@
 // * ANIMATIONS
+.card-with-contact:hover{
+    .box{
+        display: flex;
+        span:hover{
+            background: $cl-green-blue;
+            cursor: pointer;
+        }
+    }    
+}

@@ -17,6 +17,14 @@ mixin card-with-icon-2(icon,title, content)
             p= content
         .btn--arrow  <i class="fas fa-arrow-right"></i>
 
+mixin card-with-icon-3(icon,title, content)
+    div(class!=attributes.class).card-with-icon-3    
+        .icon
+            img(src= icon)
+        .content
+            h5= title 
+            p= content
+
 mixin explore-slider-item(src, head, title)
     li.explore-slider-item 
         img(src= src)
@@ -72,3 +80,11 @@ mixin card-with-contact(src, name, job)
         .card-with-contact--bottom 
             p= name 
             p= job 
+
+mixin card-with-content-2(src ,title, content)
+    .card-with-content-2 
+       .card-with-content-2--top 
+            img(src = src)
+       .card-with-content-2--bottom  
+            h5= title 
+            p= content

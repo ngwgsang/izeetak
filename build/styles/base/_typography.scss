@@ -116,6 +116,9 @@ button{
         font-size: 1.4rem;
     }
 }
+.head {
+    color: $cl-text;
+}
 
 .head + h3 {
     font-size: 4.5rem;
@@ -219,6 +222,52 @@ button{
         font-size: 2rem;
     }
     p{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+
+.card-with-icon-3{
+    .content{
+        h5{
+            font-size: 2.8rem;
+        }
+        p{
+            font-size: 2rem;
+            line-height: 1.4;
+        }
+    }
+}
+
+.services-blog__container--top__primarycard--top{
+    h5{
+        font-size: 3.4rem;
+        line-height: 1.4;
+    }
+}
+
+.card-with-content-2--bottom{
+    h5{
+        font-size: 2.4rem;
+    }
+    p{
+        line-height: 1.4;
+        font-size: 1.6rem;
+    }
+}
+
+.services-blog__container--bottom__heading{
+    &--right{
+        p{
+            font-size: 2rem;
+            line-height: 1.4;
+        }
+    }
+}
+
+.services-blog__container--bottom__noti{
+    font-size: 2rem;
+    span{
         font-size: 2rem;
         font-weight: 600;
     }
