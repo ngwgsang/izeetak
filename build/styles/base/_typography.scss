@@ -5,6 +5,11 @@
     line-height: 1;
 }
 
+.cl-blue { color: $cl-blue;}
+.cl-text { color: $cl-text;}
+.bold{ font-weight: 600;}
+.upcase{text-transform: uppercase;}
+
 button{
     font-size: 2rem;
 }
@@ -267,8 +272,44 @@ button{
 
 .services-blog__container--bottom__noti{
     font-size: 2rem;
-    span{
+    a{
         font-size: 2rem;
         font-weight: 600;
+    }
+}
+
+
+.services-details__container{
+    &__content{
+        h5{
+            line-height: 1.4;
+            font-size: 2.6rem;
+        }
+        p, li{
+            font-size: 1.8rem;
+            line-height: 1.4;
+        }
+
+        .cl-blue{
+            font-size: 2rem;
+        }
+    }
+    &__category{
+        .services-details__container__category__choices{
+            span{font-size: 1.7rem;}
+            font-weight: 600;
+        }
+    }
+    .services-details__container__banner{
+        p{
+            font-size: 1.5rem;
+            line-height: 1.4;
+        }
+        .bold{
+            font-size: 2.6rem;
+        }
+        .upcase{
+            font-weight: 400;
+        }
     }
 }

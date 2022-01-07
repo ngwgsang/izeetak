@@ -88,3 +88,18 @@ mixin card-with-content-2(src ,title, content)
        .card-with-content-2--bottom  
             h5= title 
             p= content
+
+
+mixin category-choices(tag) 
+    li(class!=attributes.class).services-details__container__category__choices 
+        span.cl-text=tag
+        <i class="fas fa-arrow-right"></i>
+
+
+mixin accordions-items(title, content)
+    li(class!=attributes.class).services-details__container__content__accordions__items 
+        .services-details__container__content__accordions__items--top 
+            span= title
+            <i class="fas fa-plus cl-blue"></i> 
+        .services-details__container__content__accordions__items--bottom 
+            p.cl-text= content   

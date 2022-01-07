@@ -1,0 +1,121 @@
+.services-details__container{
+    width: 100%;
+    height: 190rem;
+    display: flex;
+    justify-content: center;
+    background: $cl-f;
+    gap: 4rem;
+    padding-top: 4rem;
+    &__content{
+
+        width: 88rem;
+        img {
+            height: 36rem;
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            border-radius: 1rem;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        h5{
+            font-size: 2.6rem;
+        }
+        .box{
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            &--left{
+                .cl-blue{
+                    margin: 1rem 0;
+                }
+                ul {
+                    list-style-position: inside;
+                    list-style-image: url('../images/check.png');
+                }
+            }
+        }
+    &__accordions{
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        list-style: none;
+
+        &__items{
+            box-shadow: 0 10px 60px rgba(0, 0, 0, 0.07);
+            padding: 3rem 4rem;
+            border-radius: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            &--top{
+                display: flex;
+                justify-content: space-between;
+
+                span{
+                    font-size: 2rem;
+                }
+            }
+            &--bottom{
+                width: 94%;
+            }
+        }
+    }
+    }
+    &__category{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        ul {
+            padding: 2rem 1rem;
+            height: 40rem;
+            width: 34rem;
+            border-radius: 1rem;
+            background: $cl-light-grey;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            .services-details__container__category__choices{
+                display: flex;
+                justify-content: space-between;
+                padding: 1.6rem 1rem;
+                width: 100%;
+                border-radius: 0.5rem;
+                i{
+                    display: none;
+                }
+            }
+            .active{
+                
+                background: $cl-f;
+                i,span {color: $cl-0; display: flex;}
+            }
+        }
+    }
+    &__banner{
+        width: 100%;
+        border-radius: 1rem;
+        background: linear-gradient($cl-light-blue,$cl-light-blue) ,url('../images/imgix-pgdaAwf6IJg-unsplash.jpg') center;
+        height: 40rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+        .box{
+            background: $cl-f;
+            border-radius: 10rem;
+            width: 7rem;
+            height: 7rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        p{
+            color: $cl-f;
+        }
+    }
+}
