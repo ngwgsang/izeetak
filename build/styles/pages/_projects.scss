@@ -1,0 +1,26 @@
+.projects-content__container{
+    height: 120rem;
+    width: 100%;
+    background: $cl-f;
+    position: relative;
+    &__grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 12rem 6rem;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        .explore-slider-item{
+            width: 36rem;
+            height: 40rem;
+            .btn{
+                width: 32rem;
+                h5{
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+}

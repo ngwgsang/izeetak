@@ -313,3 +313,34 @@ button{
         }
     }
 }
+
+.projects-details__container__content__header__information li {
+    span {
+        font-size: 1.6rem;
+    }
+}
+
+
+.projects-details__container{
+    &__content__blog{
+        h5{
+            line-height: 1.4;
+            font-size: 2.8rem;
+        }
+        p, li{
+            font-size: 1.9rem;
+            line-height: 1.5;
+        }
+        li{
+            font-weight: 500;
+        }
+    }
+    &__content__navbtn{
+        &--prev, &--next{
+            span{
+                font-weight: 500;
+                font-size: 1.7rem;
+            }
+        }
+    }
+}

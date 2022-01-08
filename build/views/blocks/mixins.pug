@@ -28,7 +28,7 @@ mixin card-with-icon-3(icon,title, content)
 mixin explore-slider-item(src, head, title)
     li.explore-slider-item 
         img(src= src)
-        .btn
+        a(href= "./projects-details.html").btn
             p= head
             h5= title 
             i.fas.fa-arrow-right
