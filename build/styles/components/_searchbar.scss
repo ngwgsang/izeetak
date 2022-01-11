@@ -1,0 +1,21 @@
+.searchbar{
+    height: 6rem;
+    width: 34rem;
+    border-radius: 1rem;
+    background: $cl-green-blue;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $cl-f;
+    input{
+        background: transparent;
+        width: 100%;
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: $cl-f;
+    }
+    .fas{
+        font-size: 1.6rem;
+    }
+}

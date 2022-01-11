@@ -1,0 +1,38 @@
+ul.lastestpost{
+    h4{
+        font-size: 2.6rem;
+        margin-bottom: 1rem;
+    }
+    padding: 3rem 3rem;
+
+    height: 44rem;
+    width: 34rem;
+    border-radius: 1rem;
+    background: $cl-light-grey;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .post{
+        display: flex;
+        gap: 1rem;
+        border-bottom: 0.2rem solid $cl-f;
+        padding-bottom: 1rem;
+
+        img{
+            width: 6rem;
+            height: 6rem;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 0.5rem;
+        }
+        p {
+            display: flex;
+            gap: 0.5rem;
+        }
+        .bold{
+            font-size: 1.6rem;
+            line-height: 1.4;
+        }
+    }
+}

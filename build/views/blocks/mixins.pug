@@ -91,7 +91,7 @@ mixin card-with-content-2(src ,title, content)
 
 
 mixin category-choices(tag) 
-    li(class!=attributes.class).services-details__container__category__choices 
+    li(class!=attributes.class).category__choices 
         span.cl-text=tag
         <i class="fas fa-arrow-right"></i>
 
@@ -103,3 +103,12 @@ mixin accordions-items(title, content)
             <i class="fas fa-plus cl-blue"></i> 
         .services-details__container__content__accordions__items--bottom 
             p.cl-text= content   
+
+mixin post(src,author, title)
+    li.post 
+        img(src =src)
+        .box 
+            p 
+                span.cl-green-blue @
+                span=author
+            p.bold=title  

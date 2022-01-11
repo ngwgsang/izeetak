@@ -13,6 +13,10 @@
 @import './components/footer';
 @import './components/cardwi';
 @import './components/page-head';
+@import './components/category';
+@import './components/searchbar';
+@import './components/latestpost';
+@import './components/tags';
 //* Pages
 @import './pages/home';
 @import './pages/about';
@@ -20,6 +24,8 @@
 @import './pages/services-details';
 @import './pages/projects';
 @import './pages/projects-details';
+@import './pages/news';
+@import './pages/news-details';
 //* Layouts
 @import './layout/wrapper';
 @import './layout/flex';

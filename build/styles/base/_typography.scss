@@ -6,6 +6,7 @@
 }
 
 .cl-blue { color: $cl-blue;}
+.cl-green-blue { color: $cl-green-blue;}
 .cl-text { color: $cl-text;}
 .bold{ font-weight: 600;}
 .upcase{text-transform: uppercase;}
@@ -278,6 +279,12 @@ button{
     }
 }
 
+.category{
+    .category__choices{
+        span{font-size: 1.7rem;}
+        font-weight: 600;
+    }
+}
 
 .services-details__container{
     &__content{
@@ -292,12 +299,6 @@ button{
 
         .cl-blue{
             font-size: 2rem;
-        }
-    }
-    &__category{
-        .services-details__container__category__choices{
-            span{font-size: 1.7rem;}
-            font-weight: 600;
         }
     }
     .services-details__container__banner{
