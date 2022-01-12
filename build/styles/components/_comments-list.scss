@@ -1,0 +1,50 @@
+.comments-list{
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    &-item{
+        display: flex;
+        gap: 2rem;
+        position: relative;
+        padding-bottom: 1rem;
+        border-bottom: 0.1rem solid $cl-light-grey;
+        img{
+            width: 8rem;
+            height: 8rem;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 5rem;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            gap: 3rem; 
+            .info{
+                display: flex;
+                gap: 2rem;
+                .name, .time{
+                    font-size: 1.6rem;
+                }
+                .name{
+                    font-size: 2rem;
+                    font-weight: 500;
+                }
+            }
+            .cmt{
+                width: 90%;
+                line-height: 1.5;
+            }
+        }
+        .reply{
+            position: absolute;
+            top: 0; 
+            right: 0;
+            background: $cl-blue;
+            color: $cl-f;
+            font-weight: 500;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+        }
+    }
+}

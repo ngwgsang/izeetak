@@ -1,0 +1,179 @@
+.news-details__container{
+    width: 100%;
+    // height: 250rem;
+    display: flex;
+    justify-content: center;
+    background: $cl-f;
+    gap: 4rem;
+    padding: 6rem  4rem;
+
+    &__content{
+        width: 88rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        // background: rebeccapurple;
+        height: 100%;
+        &__box{
+            position: relative;
+            border-radius: 1rem;
+            height: 40rem;
+            img {
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+                width: 100%;
+                border-radius: 1rem;
+            }
+            span{
+                position: absolute;
+                font-size: 1.5rem;
+                width: 6rem;
+                height: 6rem;
+                border-radius: 0 1rem 0 0;
+                background: $cl-f;
+                bottom: 0rem;
+                left: 0rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+            }
+        }
+        &__info{
+            display: flex;
+            gap: 2rem;
+            span{
+                span, i{
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        h3{
+            font-size: 2.6rem;
+        }
+        p{
+            font-size: 1.8rem;
+            line-height: 1.5;
+        }
+        &__tag{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            .tags{
+                h4{
+                    display: block;
+                }
+
+                background: transparent;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 2rem; 
+
+                li{
+                    background: $cl-blue;
+                    color: $cl-f;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+            &--right{
+                .socialmedialist__item{
+                    background: $cl-light-grey;
+                    i{
+                        color: $cl-0;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        &__topic{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            justify-content: space-between;
+            &--left,&--right{
+                background: rebeccapurple;
+                height: 20rem;
+                border-radius: 1rem;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 3rem;
+                span{
+                    font-size: 2.6rem;
+                    font-weight: 500;
+                    line-height: 1.5;
+                }
+            }
+            &--left{
+                background: $cl-light-grey;
+                color: $cl-0;
+            }
+            &--right{
+                background: $cl-green-blue;
+                color: $cl-f;
+            }
+        }
+        &__comment{
+            h4{
+                font-size: 2.6rem;
+                margin: 3rem 0;
+            }
+        }
+        &__comment-form{
+            h4{
+                font-size: 2.6rem;
+                margin: 3rem 0;
+            }
+            form {
+                height: 30rem;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem; 
+                .box {
+
+                    display: flex;
+                    gap: 2rem;
+                    input{
+                        width: 100%;
+                        height: 5rem;
+                    }
+                }
+                input, textarea{
+                    background: $cl-light-grey;
+                    color: $cl-grey;
+                    border: 0;
+                    outline: 0;
+                    padding: 2rem;
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                    border-radius: 0.5rem;
+                }
+                .btn{
+                    height: 8rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: $cl-blue;
+                    color: $cl-f;
+                    width: 15rem;
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                    border-radius: 0.5rem;
+                }
+            }
+
+        }
+    }
+    &__category{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+}

@@ -1,0 +1,16 @@
+.socialmedialist{
+    display: flex;
+    gap: 1rem;
+    &__item{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #000;
+        border-radius: 10rem;
+        i{
+            color: $cl-f;
+        }
+    }
+}

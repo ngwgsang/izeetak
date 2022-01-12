@@ -112,3 +112,14 @@ mixin post(src,author, title)
                 span.cl-green-blue @
                 span=author
             p.bold=title  
+
+
+mixin comments-list-item(src, name, time, cmt) 
+    li.comments-list-item
+        img(src= src) 
+        .box 
+            p.info  
+                span.name.bold= name 
+                span.time.cl-blue= time 
+            p.cmt.cl-text= cmt 
+        span.reply.upcase reply
