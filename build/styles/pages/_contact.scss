@@ -20,6 +20,9 @@
             display: flex;
             gap: 2rem;
             &--left{
+                .head{
+                    margin-bottom: 1rem;
+                }
                 width: 50%;
             }
             &--right{

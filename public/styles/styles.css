@@ -1073,8 +1073,8 @@ button {
 .page-head {
   height: 40rem;
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(38, 38, 38, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/maxim-hopman-8vn4KvfU640-unsplash.jpg") no-repeat center 40%;
-  background: linear-gradient(rgba(38, 38, 38, 0.5), rgba(0, 0, 0, 0.5)), url("../images/maxim-hopman-8vn4KvfU640-unsplash.jpg") no-repeat center 40%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(38, 38, 38, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://images.unsplash.com/photo-1605647540924-852290f6b0d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1437&q=80") no-repeat center 40%;
+  background: linear-gradient(rgba(38, 38, 38, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1605647540924-852290f6b0d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1437&q=80") no-repeat center 40%;
   background-size: cover;
   position: relative;
   overflow: hidden; }
@@ -1475,7 +1475,7 @@ ul.lastestpost {
         box-shadow: 0 21.5rem 0 0 #1989FB; }
       .discover__container__content--left .img-box::after {
         content: "";
-        background: url("../images/andrea-de-santis-zwd435-ewb4-unsplash.jpg");
+        background: url("https://images.unsplash.com/photo-1625314887424-9f190599bd56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
         background-size: cover;
         background-position: center;
         position: absolute;
@@ -1943,8 +1943,8 @@ ul.lastestpost {
 
 .about-video__container {
   height: 60rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/pexels-julia-m-cameron-4144179.jpg") center 20%;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/pexels-julia-m-cameron-4144179.jpg") center 20%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("https://images.unsplash.com/photo-1588590560438-5e27fe3f6b71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2028&q=80") center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1588590560438-5e27fe3f6b71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2028&q=80") center;
   background-size: cover;
   position: relative; }
   .about-video__container__box {
@@ -2761,6 +2761,8 @@ ul.lastestpost {
       gap: 2rem; }
       .contact-content__container--top__form--left {
         width: 50%; }
+        .contact-content__container--top__form--left .head {
+          margin-bottom: 1rem; }
       .contact-content__container--top__form--right {
         display: -webkit-box;
         display: -ms-flexbox;
