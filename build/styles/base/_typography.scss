@@ -345,3 +345,34 @@ button{
         }
     }
 }
+
+.contact-content__container--top__form--left{
+    .cl-text{
+        font-size: 1.8rem;
+        line-height: 1.4;
+    }
+    h3{
+        margin-bottom: 1rem;
+    }
+
+}
+.contact-content__container--top__form--right{
+    input, textarea, button{
+        font-size: 1.6rem;
+    }
+
+}
+
+.contact-content__container--top__list{
+    .content{
+        h5{
+            color: $cl-text;
+            font-weight: 500;
+        }
+        p{
+            color: $cl-0;
+            font-weight: 600;
+            font-size: 1.6rem;
+        }
+    }
+}
