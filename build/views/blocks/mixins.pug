@@ -57,6 +57,20 @@ mixin card-with-content(src, time , author, title, content)
             h5= title 
             p= content 
 
+mixin card-with-content-news(src, time , author, title, content, url)
+    a(href= url).card-with-content
+        .top 
+            img(src= src) 
+            span=time
+        .bottom 
+            .bottom__box 
+                i.fas.fa-user
+                span= author
+                i.fas.fa-comments
+                span 2 Comments
+            h5= title 
+            p= content 
+
 mixin card-with-circle(title, percent)
     .card-with-circle 
         span.percent= percent 
